@@ -1,0 +1,26 @@
+/* Базові стилі */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: $font-main;
+	font-size: 14px;
+	line-height: 20px;
+	font-style: normal;
+	font-weight: 300;
+	color: $black;
+	background: $gradient;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+a,
+button {
+	@include transition;
+	cursor: pointer;
+}
