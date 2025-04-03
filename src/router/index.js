@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import AuthPage from '../views/AuthPage.vue'
+import CabinetPage from '../views/CabinetPage.vue'
 import HomePage from '../views/HomePage.vue'
 import RegPage from '../views/RegPage.vue'
 import ResetPassword from '../views/ResetPassword.vue'
-import CabinetPage from '../views/CabinetPage.vue'
 
 const routes = [
 	{
